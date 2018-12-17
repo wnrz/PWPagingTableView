@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
   s.public_header_files = 'PWPagingTableView/**/*.h'
-  s.source_files = 'PWPagingTableView/PWPagingTableView/PWTableView.h'
+  s.source_files = 'PWPagingTableView/**/*'
 
   s.source = { :git => 'https://github.com/wnrz/PWPagingTableView.git', :tag => s.version.to_s}
   
