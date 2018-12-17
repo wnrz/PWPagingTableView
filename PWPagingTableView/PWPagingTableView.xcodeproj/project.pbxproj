@@ -16,6 +16,14 @@
 		9266F87321C79A9100E93FA3 /* PWSingleCellService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86B21C79A9100E93FA3 /* PWSingleCellService.m */; };
 		9266F87421C79A9100E93FA3 /* PWSingleCellServiceBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86C21C79A9100E93FA3 /* PWSingleCellServiceBridge.m */; };
 		9266F87821C79D8A00E93FA3 /* PWPagingTableViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F87721C79D8A00E93FA3 /* PWPagingTableViewTools.m */; };
+		9266F87921C7A2E300E93FA3 /* PWTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F87521C79B1F00E93FA3 /* PWTableView.h */; };
+		9266F87A21C7A2E300E93FA3 /* PWPagingADTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86421C79A9100E93FA3 /* PWPagingADTableView.h */; };
+		9266F87B21C7A2E300E93FA3 /* PWPagingTableViewService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86521C79A9100E93FA3 /* PWPagingTableViewService.h */; };
+		9266F87C21C7A2E300E93FA3 /* PWPagingTableViewSingleService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86221C79A9100E93FA3 /* PWPagingTableViewSingleService.h */; };
+		9266F87D21C7A2E300E93FA3 /* PWPagingTableViewTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F87621C79D8A00E93FA3 /* PWPagingTableViewTools.h */; };
+		9266F87E21C7A2E300E93FA3 /* PWSingleCellServiceBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86921C79A9100E93FA3 /* PWSingleCellServiceBridge.h */; };
+		9266F87F21C7A2E300E93FA3 /* PWSingleCellServiceCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86E21C79A9100E93FA3 /* PWSingleCellServiceCell.h */; };
+		9266F88021C7A2E300E93FA3 /* PWSingleCellService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86821C79A9100E93FA3 /* PWSingleCellService.h */; };
 		D0DD5529073C2D1A09FDD34B /* libPods-PWPagingTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6F1950C7758F0342166D9 /* libPods-PWPagingTableView.a */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +34,14 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				9266F87921C7A2E300E93FA3 /* PWTableView.h in CopyFiles */,
+				9266F87A21C7A2E300E93FA3 /* PWPagingADTableView.h in CopyFiles */,
+				9266F87B21C7A2E300E93FA3 /* PWPagingTableViewService.h in CopyFiles */,
+				9266F87C21C7A2E300E93FA3 /* PWPagingTableViewSingleService.h in CopyFiles */,
+				9266F87D21C7A2E300E93FA3 /* PWPagingTableViewTools.h in CopyFiles */,
+				9266F87E21C7A2E300E93FA3 /* PWSingleCellServiceBridge.h in CopyFiles */,
+				9266F87F21C7A2E300E93FA3 /* PWSingleCellServiceCell.h in CopyFiles */,
+				9266F88021C7A2E300E93FA3 /* PWSingleCellService.h in CopyFiles */,
 				9266F85B21C7999500E93FA3 /* PWPagingTableView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
