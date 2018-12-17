@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9266F85A21C7999500E93FA3 /* PWPagingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F85921C7999500E93FA3 /* PWPagingTableView.m */; };
-		9266F85B21C7999500E93FA3 /* PWPagingTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F85821C7999500E93FA3 /* PWPagingTableView.h */; };
-		9266F86F21C79A9100E93FA3 /* PWPagingADTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86121C79A9000E93FA3 /* PWPagingADTableView.m */; };
-		9266F87021C79A9100E93FA3 /* PWPagingTableViewSingleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86321C79A9100E93FA3 /* PWPagingTableViewSingleService.m */; };
-		9266F87121C79A9100E93FA3 /* PWPagingTableViewService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86621C79A9100E93FA3 /* PWPagingTableViewService.m */; };
-		9266F87221C79A9100E93FA3 /* PWSingleCellServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86A21C79A9100E93FA3 /* PWSingleCellServiceCell.m */; };
-		9266F87321C79A9100E93FA3 /* PWSingleCellService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86B21C79A9100E93FA3 /* PWSingleCellService.m */; };
-		9266F87421C79A9100E93FA3 /* PWSingleCellServiceBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86C21C79A9100E93FA3 /* PWSingleCellServiceBridge.m */; };
-		9266F87821C79D8A00E93FA3 /* PWPagingTableViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F87721C79D8A00E93FA3 /* PWPagingTableViewTools.m */; };
 		9266F87921C7A2E300E93FA3 /* PWTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F87521C79B1F00E93FA3 /* PWTableView.h */; };
-		9266F87A21C7A2E300E93FA3 /* PWPagingADTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86421C79A9100E93FA3 /* PWPagingADTableView.h */; };
-		9266F87B21C7A2E300E93FA3 /* PWPagingTableViewService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86521C79A9100E93FA3 /* PWPagingTableViewService.h */; };
-		9266F87C21C7A2E300E93FA3 /* PWPagingTableViewSingleService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86221C79A9100E93FA3 /* PWPagingTableViewSingleService.h */; };
-		9266F87D21C7A2E300E93FA3 /* PWPagingTableViewTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F87621C79D8A00E93FA3 /* PWPagingTableViewTools.h */; };
-		9266F87E21C7A2E300E93FA3 /* PWSingleCellServiceBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86921C79A9100E93FA3 /* PWSingleCellServiceBridge.h */; };
-		9266F87F21C7A2E300E93FA3 /* PWSingleCellServiceCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86E21C79A9100E93FA3 /* PWSingleCellServiceCell.h */; };
-		9266F88021C7A2E300E93FA3 /* PWSingleCellService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F86821C79A9100E93FA3 /* PWSingleCellService.h */; };
+		9266F89421C7A4DF00E93FA3 /* PWPagingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88321C7A4DF00E93FA3 /* PWPagingTableView.m */; };
+		9266F89521C7A4DF00E93FA3 /* PWPagingADTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88421C7A4DF00E93FA3 /* PWPagingADTableView.m */; };
+		9266F89621C7A4DF00E93FA3 /* PWPagingTableViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88521C7A4DF00E93FA3 /* PWPagingTableViewTools.m */; };
+		9266F89721C7A4DF00E93FA3 /* PWSingleCellServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88A21C7A4DF00E93FA3 /* PWSingleCellServiceCell.m */; };
+		9266F89821C7A4DF00E93FA3 /* PWSingleCellService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88B21C7A4DF00E93FA3 /* PWSingleCellService.m */; };
+		9266F89921C7A4DF00E93FA3 /* PWSingleCellServiceBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88C21C7A4DF00E93FA3 /* PWSingleCellServiceBridge.m */; };
+		9266F89A21C7A4DF00E93FA3 /* PWPagingTableViewSingleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F89021C7A4DF00E93FA3 /* PWPagingTableViewSingleService.m */; };
+		9266F89B21C7A4DF00E93FA3 /* PWPagingTableViewService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F89321C7A4DF00E93FA3 /* PWPagingTableViewService.m */; };
+		9266F89C21C7A4E800E93FA3 /* PWPagingTableViewSingleService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88221C7A4DF00E93FA3 /* PWPagingTableViewSingleService.h */; };
+		9266F89D21C7A4E800E93FA3 /* PWPagingTableViewService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88621C7A4DF00E93FA3 /* PWPagingTableViewService.h */; };
+		9266F89E21C7A4E800E93FA3 /* PWSingleCellService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88821C7A4DF00E93FA3 /* PWSingleCellService.h */; };
+		9266F89F21C7A4E800E93FA3 /* PWSingleCellServiceBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88921C7A4DF00E93FA3 /* PWSingleCellServiceBridge.h */; };
+		9266F8A021C7A4E800E93FA3 /* PWSingleCellServiceCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88E21C7A4DF00E93FA3 /* PWSingleCellServiceCell.h */; };
+		9266F8A121C7A4E800E93FA3 /* PWPagingTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88F21C7A4DF00E93FA3 /* PWPagingTableView.h */; };
+		9266F8A221C7A4E800E93FA3 /* PWPagingTableViewTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F89121C7A4DF00E93FA3 /* PWPagingTableViewTools.h */; };
+		9266F8A321C7A4E800E93FA3 /* PWPagingADTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F89221C7A4DF00E93FA3 /* PWPagingADTableView.h */; };
 		D0DD5529073C2D1A09FDD34B /* libPods-PWPagingTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6F1950C7758F0342166D9 /* libPods-PWPagingTableView.a */; };
 /* End PBXBuildFile section */
 
@@ -34,15 +34,15 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				9266F89C21C7A4E800E93FA3 /* PWPagingTableViewSingleService.h in CopyFiles */,
+				9266F89D21C7A4E800E93FA3 /* PWPagingTableViewService.h in CopyFiles */,
+				9266F89E21C7A4E800E93FA3 /* PWSingleCellService.h in CopyFiles */,
+				9266F89F21C7A4E800E93FA3 /* PWSingleCellServiceBridge.h in CopyFiles */,
+				9266F8A021C7A4E800E93FA3 /* PWSingleCellServiceCell.h in CopyFiles */,
+				9266F8A121C7A4E800E93FA3 /* PWPagingTableView.h in CopyFiles */,
+				9266F8A221C7A4E800E93FA3 /* PWPagingTableViewTools.h in CopyFiles */,
+				9266F8A321C7A4E800E93FA3 /* PWPagingADTableView.h in CopyFiles */,
 				9266F87921C7A2E300E93FA3 /* PWTableView.h in CopyFiles */,
-				9266F87A21C7A2E300E93FA3 /* PWPagingADTableView.h in CopyFiles */,
-				9266F87B21C7A2E300E93FA3 /* PWPagingTableViewService.h in CopyFiles */,
-				9266F87C21C7A2E300E93FA3 /* PWPagingTableViewSingleService.h in CopyFiles */,
-				9266F87D21C7A2E300E93FA3 /* PWPagingTableViewTools.h in CopyFiles */,
-				9266F87E21C7A2E300E93FA3 /* PWSingleCellServiceBridge.h in CopyFiles */,
-				9266F87F21C7A2E300E93FA3 /* PWSingleCellServiceCell.h in CopyFiles */,
-				9266F88021C7A2E300E93FA3 /* PWSingleCellService.h in CopyFiles */,
-				9266F85B21C7999500E93FA3 /* PWPagingTableView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,24 +51,24 @@
 /* Begin PBXFileReference section */
 		75805E780661519C1C5AAD3C /* Pods-PWPagingTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWPagingTableView.debug.xcconfig"; path = "Target Support Files/Pods-PWPagingTableView/Pods-PWPagingTableView.debug.xcconfig"; sourceTree = "<group>"; };
 		9266F85521C7999500E93FA3 /* libPWPagingTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPWPagingTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9266F85821C7999500E93FA3 /* PWPagingTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWPagingTableView.h; sourceTree = "<group>"; };
-		9266F85921C7999500E93FA3 /* PWPagingTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableView.m; sourceTree = "<group>"; };
-		9266F86121C79A9000E93FA3 /* PWPagingADTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPagingADTableView.m; sourceTree = "<group>"; };
-		9266F86221C79A9100E93FA3 /* PWPagingTableViewSingleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPagingTableViewSingleService.h; sourceTree = "<group>"; };
-		9266F86321C79A9100E93FA3 /* PWPagingTableViewSingleService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableViewSingleService.m; sourceTree = "<group>"; };
-		9266F86421C79A9100E93FA3 /* PWPagingADTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPagingADTableView.h; sourceTree = "<group>"; };
-		9266F86521C79A9100E93FA3 /* PWPagingTableViewService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPagingTableViewService.h; sourceTree = "<group>"; };
-		9266F86621C79A9100E93FA3 /* PWPagingTableViewService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableViewService.m; sourceTree = "<group>"; };
-		9266F86821C79A9100E93FA3 /* PWSingleCellService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSingleCellService.h; sourceTree = "<group>"; };
-		9266F86921C79A9100E93FA3 /* PWSingleCellServiceBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSingleCellServiceBridge.h; sourceTree = "<group>"; };
-		9266F86A21C79A9100E93FA3 /* PWSingleCellServiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSingleCellServiceCell.m; sourceTree = "<group>"; };
-		9266F86B21C79A9100E93FA3 /* PWSingleCellService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSingleCellService.m; sourceTree = "<group>"; };
-		9266F86C21C79A9100E93FA3 /* PWSingleCellServiceBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSingleCellServiceBridge.m; sourceTree = "<group>"; };
-		9266F86D21C79A9100E93FA3 /* PWSingleCellServiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWSingleCellServiceCell.xib; sourceTree = "<group>"; };
-		9266F86E21C79A9100E93FA3 /* PWSingleCellServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSingleCellServiceCell.h; sourceTree = "<group>"; };
 		9266F87521C79B1F00E93FA3 /* PWTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWTableView.h; sourceTree = "<group>"; };
-		9266F87621C79D8A00E93FA3 /* PWPagingTableViewTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWPagingTableViewTools.h; sourceTree = "<group>"; };
-		9266F87721C79D8A00E93FA3 /* PWPagingTableViewTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableViewTools.m; sourceTree = "<group>"; };
+		9266F88221C7A4DF00E93FA3 /* PWPagingTableViewSingleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPagingTableViewSingleService.h; sourceTree = "<group>"; };
+		9266F88321C7A4DF00E93FA3 /* PWPagingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableView.m; sourceTree = "<group>"; };
+		9266F88421C7A4DF00E93FA3 /* PWPagingADTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPagingADTableView.m; sourceTree = "<group>"; };
+		9266F88521C7A4DF00E93FA3 /* PWPagingTableViewTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableViewTools.m; sourceTree = "<group>"; };
+		9266F88621C7A4DF00E93FA3 /* PWPagingTableViewService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPagingTableViewService.h; sourceTree = "<group>"; };
+		9266F88821C7A4DF00E93FA3 /* PWSingleCellService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSingleCellService.h; sourceTree = "<group>"; };
+		9266F88921C7A4DF00E93FA3 /* PWSingleCellServiceBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSingleCellServiceBridge.h; sourceTree = "<group>"; };
+		9266F88A21C7A4DF00E93FA3 /* PWSingleCellServiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSingleCellServiceCell.m; sourceTree = "<group>"; };
+		9266F88B21C7A4DF00E93FA3 /* PWSingleCellService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSingleCellService.m; sourceTree = "<group>"; };
+		9266F88C21C7A4DF00E93FA3 /* PWSingleCellServiceBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSingleCellServiceBridge.m; sourceTree = "<group>"; };
+		9266F88D21C7A4DF00E93FA3 /* PWSingleCellServiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWSingleCellServiceCell.xib; sourceTree = "<group>"; };
+		9266F88E21C7A4DF00E93FA3 /* PWSingleCellServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSingleCellServiceCell.h; sourceTree = "<group>"; };
+		9266F88F21C7A4DF00E93FA3 /* PWPagingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPagingTableView.h; sourceTree = "<group>"; };
+		9266F89021C7A4DF00E93FA3 /* PWPagingTableViewSingleService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableViewSingleService.m; sourceTree = "<group>"; };
+		9266F89121C7A4DF00E93FA3 /* PWPagingTableViewTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPagingTableViewTools.h; sourceTree = "<group>"; };
+		9266F89221C7A4DF00E93FA3 /* PWPagingADTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPagingADTableView.h; sourceTree = "<group>"; };
+		9266F89321C7A4DF00E93FA3 /* PWPagingTableViewService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableViewService.m; sourceTree = "<group>"; };
 		D05FF5C96CC51A112959F0A2 /* Pods-PWPagingTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWPagingTableView.release.xcconfig"; path = "Target Support Files/Pods-PWPagingTableView/Pods-PWPagingTableView.release.xcconfig"; sourceTree = "<group>"; };
 		FAF6F1950C7758F0342166D9 /* libPods-PWPagingTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PWPagingTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,32 +115,40 @@
 		9266F85721C7999500E93FA3 /* PWPagingTableView */ = {
 			isa = PBXGroup;
 			children = (
+				9266F88121C7A4DF00E93FA3 /* PWPagingTableView */,
 				9266F87521C79B1F00E93FA3 /* PWTableView.h */,
-				9266F86421C79A9100E93FA3 /* PWPagingADTableView.h */,
-				9266F86121C79A9000E93FA3 /* PWPagingADTableView.m */,
-				9266F86521C79A9100E93FA3 /* PWPagingTableViewService.h */,
-				9266F86621C79A9100E93FA3 /* PWPagingTableViewService.m */,
-				9266F86221C79A9100E93FA3 /* PWPagingTableViewSingleService.h */,
-				9266F86321C79A9100E93FA3 /* PWPagingTableViewSingleService.m */,
-				9266F85821C7999500E93FA3 /* PWPagingTableView.h */,
-				9266F85921C7999500E93FA3 /* PWPagingTableView.m */,
-				9266F87621C79D8A00E93FA3 /* PWPagingTableViewTools.h */,
-				9266F87721C79D8A00E93FA3 /* PWPagingTableViewTools.m */,
-				9266F86721C79A9100E93FA3 /* PWSingleCellService */,
 			);
 			path = PWPagingTableView;
 			sourceTree = "<group>";
 		};
-		9266F86721C79A9100E93FA3 /* PWSingleCellService */ = {
+		9266F88121C7A4DF00E93FA3 /* PWPagingTableView */ = {
 			isa = PBXGroup;
 			children = (
-				9266F86921C79A9100E93FA3 /* PWSingleCellServiceBridge.h */,
-				9266F86C21C79A9100E93FA3 /* PWSingleCellServiceBridge.m */,
-				9266F86E21C79A9100E93FA3 /* PWSingleCellServiceCell.h */,
-				9266F86A21C79A9100E93FA3 /* PWSingleCellServiceCell.m */,
-				9266F86D21C79A9100E93FA3 /* PWSingleCellServiceCell.xib */,
-				9266F86821C79A9100E93FA3 /* PWSingleCellService.h */,
-				9266F86B21C79A9100E93FA3 /* PWSingleCellService.m */,
+				9266F88221C7A4DF00E93FA3 /* PWPagingTableViewSingleService.h */,
+				9266F88321C7A4DF00E93FA3 /* PWPagingTableView.m */,
+				9266F88421C7A4DF00E93FA3 /* PWPagingADTableView.m */,
+				9266F88521C7A4DF00E93FA3 /* PWPagingTableViewTools.m */,
+				9266F88621C7A4DF00E93FA3 /* PWPagingTableViewService.h */,
+				9266F88721C7A4DF00E93FA3 /* PWSingleCellService */,
+				9266F88F21C7A4DF00E93FA3 /* PWPagingTableView.h */,
+				9266F89021C7A4DF00E93FA3 /* PWPagingTableViewSingleService.m */,
+				9266F89121C7A4DF00E93FA3 /* PWPagingTableViewTools.h */,
+				9266F89221C7A4DF00E93FA3 /* PWPagingADTableView.h */,
+				9266F89321C7A4DF00E93FA3 /* PWPagingTableViewService.m */,
+			);
+			path = PWPagingTableView;
+			sourceTree = "<group>";
+		};
+		9266F88721C7A4DF00E93FA3 /* PWSingleCellService */ = {
+			isa = PBXGroup;
+			children = (
+				9266F88821C7A4DF00E93FA3 /* PWSingleCellService.h */,
+				9266F88921C7A4DF00E93FA3 /* PWSingleCellServiceBridge.h */,
+				9266F88A21C7A4DF00E93FA3 /* PWSingleCellServiceCell.m */,
+				9266F88B21C7A4DF00E93FA3 /* PWSingleCellService.m */,
+				9266F88C21C7A4DF00E93FA3 /* PWSingleCellServiceBridge.m */,
+				9266F88D21C7A4DF00E93FA3 /* PWSingleCellServiceCell.xib */,
+				9266F88E21C7A4DF00E93FA3 /* PWSingleCellServiceCell.h */,
 			);
 			path = PWSingleCellService;
 			sourceTree = "<group>";
@@ -235,14 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9266F85A21C7999500E93FA3 /* PWPagingTableView.m in Sources */,
-				9266F87021C79A9100E93FA3 /* PWPagingTableViewSingleService.m in Sources */,
-				9266F87121C79A9100E93FA3 /* PWPagingTableViewService.m in Sources */,
-				9266F86F21C79A9100E93FA3 /* PWPagingADTableView.m in Sources */,
-				9266F87821C79D8A00E93FA3 /* PWPagingTableViewTools.m in Sources */,
-				9266F87321C79A9100E93FA3 /* PWSingleCellService.m in Sources */,
-				9266F87421C79A9100E93FA3 /* PWSingleCellServiceBridge.m in Sources */,
-				9266F87221C79A9100E93FA3 /* PWSingleCellServiceCell.m in Sources */,
+				9266F89421C7A4DF00E93FA3 /* PWPagingTableView.m in Sources */,
+				9266F89821C7A4DF00E93FA3 /* PWSingleCellService.m in Sources */,
+				9266F89621C7A4DF00E93FA3 /* PWPagingTableViewTools.m in Sources */,
+				9266F89A21C7A4DF00E93FA3 /* PWPagingTableViewSingleService.m in Sources */,
+				9266F89721C7A4DF00E93FA3 /* PWSingleCellServiceCell.m in Sources */,
+				9266F89521C7A4DF00E93FA3 /* PWPagingADTableView.m in Sources */,
+				9266F89B21C7A4DF00E93FA3 /* PWPagingTableViewService.m in Sources */,
+				9266F89921C7A4DF00E93FA3 /* PWSingleCellServiceBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
