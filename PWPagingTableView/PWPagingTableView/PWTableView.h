@@ -7,14 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <PWDataBridge/PWBaseDataBridge.h>
+#import <PWPagingTableView/PWPagingTableView.h>
+#import <PWPagingTableView/PWPagingTableViewService.h>
+#import <PWPagingTableView/PWPagingTableViewSingleService.h>
+#import <PWPagingTableView/PWSingleCellService.h>
+#import <PWPagingTableView/PWSingleCellServiceCell.h>
+#import <PWPagingTableView/PWSingleCellServiceBridge.h>
 
-//! Project version number for PWDataBridge.
-FOUNDATION_EXPORT double PWDataBridgeVersionNumber;
+//! Project version number for PWTableView.
+FOUNDATION_EXPORT double PWTableViewVersionNumber;
 
-//! Project version string for PWDataBridge.
-FOUNDATION_EXPORT const unsigned char PWDataBridgeVersionString[];
+//! Project version string for PWTableView.
+FOUNDATION_EXPORT const unsigned char PWTableViewVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <PWDataBridge/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <PWTableView/PublicHeader.h>
 
 

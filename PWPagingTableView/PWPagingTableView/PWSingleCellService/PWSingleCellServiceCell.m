@@ -6,24 +6,46 @@
 //
 
 #import "PWSingleCellServiceCell.h"
+#import "PWPagingTableViewTools.h"
 
 @implementation PWSingleCellServiceCell
 
++ (NSString *)identifier{
+    return [NSString stringWithFormat:@"PWSingleCellServiceCell_%@" , NSStringFromClass(self.class)];
+}
+
++ (CGFloat)height{
+    return 44;
+}
+
 - (instancetype)init{
-    self = [super init];
-    if (self) {
+    NSString *className = NSStringFromClass([self class]);
+    if ([className containsString:@"."]) {
+        NSArray *array = [className componentsSeparatedByString:@"."];
+        if (array.count > 1) {
+            className = [className componentsSeparatedByString:@"."][1];
+        }
+    }
+    NSBundle *bundle = [PWPagingTableViewTools bundleWith:self.class fileName:className fileType:@"nib"];
+    if (bundle) {
+        NSArray *array = [bundle loadNibNamed:className owner:self options:nil];
+        self = array[0];
+    }else{
+        self = [super init];
     }
     return self;
 }
 
-
-+ (NSString *)identifier{
-    return NSStringFromClass([PWSingleCellServiceCell class]);
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    // Initialization code
 }
 
-//+ (CGFloat)heightWithDict:(NSDictionary *)dict{
-//    return 50;
-//}
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    [super setSelected:selected animated:animated];
+    
+    // Configure the view for the selected state
+}
 
 - (void)setDict:(NSDictionary *)dict{
     

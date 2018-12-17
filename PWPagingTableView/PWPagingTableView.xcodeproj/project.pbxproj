@@ -15,6 +15,8 @@
 		9266F87221C79A9100E93FA3 /* PWSingleCellServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86A21C79A9100E93FA3 /* PWSingleCellServiceCell.m */; };
 		9266F87321C79A9100E93FA3 /* PWSingleCellService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86B21C79A9100E93FA3 /* PWSingleCellService.m */; };
 		9266F87421C79A9100E93FA3 /* PWSingleCellServiceBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F86C21C79A9100E93FA3 /* PWSingleCellServiceBridge.m */; };
+		9266F87821C79D8A00E93FA3 /* PWPagingTableViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F87721C79D8A00E93FA3 /* PWPagingTableViewTools.m */; };
+		D0DD5529073C2D1A09FDD34B /* libPods-PWPagingTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6F1950C7758F0342166D9 /* libPods-PWPagingTableView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		75805E780661519C1C5AAD3C /* Pods-PWPagingTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWPagingTableView.debug.xcconfig"; path = "Target Support Files/Pods-PWPagingTableView/Pods-PWPagingTableView.debug.xcconfig"; sourceTree = "<group>"; };
 		9266F85521C7999500E93FA3 /* libPWPagingTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPWPagingTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9266F85821C7999500E93FA3 /* PWPagingTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWPagingTableView.h; sourceTree = "<group>"; };
 		9266F85921C7999500E93FA3 /* PWPagingTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableView.m; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		9266F86C21C79A9100E93FA3 /* PWSingleCellServiceBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSingleCellServiceBridge.m; sourceTree = "<group>"; };
 		9266F86D21C79A9100E93FA3 /* PWSingleCellServiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWSingleCellServiceCell.xib; sourceTree = "<group>"; };
 		9266F86E21C79A9100E93FA3 /* PWSingleCellServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSingleCellServiceCell.h; sourceTree = "<group>"; };
+		9266F87521C79B1F00E93FA3 /* PWTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWTableView.h; sourceTree = "<group>"; };
+		9266F87621C79D8A00E93FA3 /* PWPagingTableViewTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWPagingTableViewTools.h; sourceTree = "<group>"; };
+		9266F87721C79D8A00E93FA3 /* PWPagingTableViewTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWPagingTableViewTools.m; sourceTree = "<group>"; };
+		D05FF5C96CC51A112959F0A2 /* Pods-PWPagingTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWPagingTableView.release.xcconfig"; path = "Target Support Files/Pods-PWPagingTableView/Pods-PWPagingTableView.release.xcconfig"; sourceTree = "<group>"; };
+		FAF6F1950C7758F0342166D9 /* libPods-PWPagingTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PWPagingTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,17 +62,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0DD5529073C2D1A09FDD34B /* libPods-PWPagingTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AB29DE3886607F1C340C544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75805E780661519C1C5AAD3C /* Pods-PWPagingTableView.debug.xcconfig */,
+				D05FF5C96CC51A112959F0A2 /* Pods-PWPagingTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9266F84C21C7999400E93FA3 = {
 			isa = PBXGroup;
 			children = (
 				9266F85721C7999500E93FA3 /* PWPagingTableView */,
 				9266F85621C7999500E93FA3 /* Products */,
+				1AB29DE3886607F1C340C544 /* Pods */,
+				F72B756298451E902B22C9A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +99,7 @@
 		9266F85721C7999500E93FA3 /* PWPagingTableView */ = {
 			isa = PBXGroup;
 			children = (
+				9266F87521C79B1F00E93FA3 /* PWTableView.h */,
 				9266F86421C79A9100E93FA3 /* PWPagingADTableView.h */,
 				9266F86121C79A9000E93FA3 /* PWPagingADTableView.m */,
 				9266F86521C79A9100E93FA3 /* PWPagingTableViewService.h */,
@@ -87,6 +108,8 @@
 				9266F86321C79A9100E93FA3 /* PWPagingTableViewSingleService.m */,
 				9266F85821C7999500E93FA3 /* PWPagingTableView.h */,
 				9266F85921C7999500E93FA3 /* PWPagingTableView.m */,
+				9266F87621C79D8A00E93FA3 /* PWPagingTableViewTools.h */,
+				9266F87721C79D8A00E93FA3 /* PWPagingTableViewTools.m */,
 				9266F86721C79A9100E93FA3 /* PWSingleCellService */,
 			);
 			path = PWPagingTableView;
@@ -95,15 +118,23 @@
 		9266F86721C79A9100E93FA3 /* PWSingleCellService */ = {
 			isa = PBXGroup;
 			children = (
-				9266F86821C79A9100E93FA3 /* PWSingleCellService.h */,
 				9266F86921C79A9100E93FA3 /* PWSingleCellServiceBridge.h */,
-				9266F86A21C79A9100E93FA3 /* PWSingleCellServiceCell.m */,
-				9266F86B21C79A9100E93FA3 /* PWSingleCellService.m */,
 				9266F86C21C79A9100E93FA3 /* PWSingleCellServiceBridge.m */,
-				9266F86D21C79A9100E93FA3 /* PWSingleCellServiceCell.xib */,
 				9266F86E21C79A9100E93FA3 /* PWSingleCellServiceCell.h */,
+				9266F86A21C79A9100E93FA3 /* PWSingleCellServiceCell.m */,
+				9266F86D21C79A9100E93FA3 /* PWSingleCellServiceCell.xib */,
+				9266F86821C79A9100E93FA3 /* PWSingleCellService.h */,
+				9266F86B21C79A9100E93FA3 /* PWSingleCellService.m */,
 			);
 			path = PWSingleCellService;
+			sourceTree = "<group>";
+		};
+		F72B756298451E902B22C9A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6F1950C7758F0342166D9 /* libPods-PWPagingTableView.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9266F85E21C7999500E93FA3 /* Build configuration list for PBXNativeTarget "PWPagingTableView" */;
 			buildPhases = (
+				CF30295C772D0A70E61EC164 /* [CP] Check Pods Manifest.lock */,
 				9266F85121C7999500E93FA3 /* Sources */,
 				9266F85221C7999500E93FA3 /* Frameworks */,
 				9266F85321C7999500E93FA3 /* CopyFiles */,
@@ -157,6 +189,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CF30295C772D0A70E61EC164 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PWPagingTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9266F85121C7999500E93FA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -166,6 +223,7 @@
 				9266F87021C79A9100E93FA3 /* PWPagingTableViewSingleService.m in Sources */,
 				9266F87121C79A9100E93FA3 /* PWPagingTableViewService.m in Sources */,
 				9266F86F21C79A9100E93FA3 /* PWPagingADTableView.m in Sources */,
+				9266F87821C79D8A00E93FA3 /* PWPagingTableViewTools.m in Sources */,
 				9266F87321C79A9100E93FA3 /* PWSingleCellService.m in Sources */,
 				9266F87421C79A9100E93FA3 /* PWSingleCellServiceBridge.m in Sources */,
 				9266F87221C79A9100E93FA3 /* PWSingleCellServiceCell.m in Sources */,
@@ -289,6 +347,7 @@
 		};
 		9266F85F21C7999500E93FA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75805E780661519C1C5AAD3C /* Pods-PWPagingTableView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				OTHER_LDFLAGS = "-ObjC";
@@ -300,6 +359,7 @@
 		};
 		9266F86021C7999500E93FA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05FF5C96CC51A112959F0A2 /* Pods-PWPagingTableView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				OTHER_LDFLAGS = "-ObjC";

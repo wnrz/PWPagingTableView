@@ -8,7 +8,6 @@
 
 #import "PWSingleCellService.h"
 #import "PWSingleCellServiceCell.h"
-#import <Masonry/Masonry.h>
 
 @interface PWSingleCellService() {
     Class _cellClass;

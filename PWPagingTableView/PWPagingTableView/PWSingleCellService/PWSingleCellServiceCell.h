@@ -6,14 +6,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PWBaseCell.h"
 
 @protocol PWSingleCellServiceCellProtocol <NSObject>
 + (NSString *)identifier;
 + (CGFloat)heightWithDict:(NSDictionary *)dict;
 @end
 
-@interface PWSingleCellServiceCell : PWBaseCell
+@interface PWSingleCellServiceCell : UITableViewCell
 
++ (NSString *)identifier;
+
++ (CGFloat)height;
 - (void)setDict:(NSDictionary *)dict;
 @end

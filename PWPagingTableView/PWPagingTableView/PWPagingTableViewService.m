@@ -8,9 +8,8 @@
 
 #import "PWPagingTableViewService.h"
 #import "PWPagingTableView.h"
-#import <BaseUtils/BaseTool.h>
-#import <BaseUtils/PWUIKitTool.h>
-#import <SDAutoLayout/SDAutoLayout.h>
+#import "PWPagingTableViewTools.h"
+#import <Masonry/Masonry.h>
 
 @implementation PWPagingTableViewService
 
@@ -42,7 +41,7 @@
 }
 
 - (void)dealloc{
-    [PWUIKitTool clearSubviews:sectionView];
+    [PWPagingTableViewTools clearSubviews:sectionView];
     [sectionView removeFromSuperview];
     sectionView = nil;
     [_array removeAllObjects];
@@ -205,20 +204,26 @@
         sectionView = array[0];
         return;
     }
+    float kScreenWidth = [[UIScreen mainScreen] bounds].size.width;
     if (array && array.count > 0) {
         sectionView = sectionView ? sectionView : [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 0)];
-        [PWUIKitTool clearSubviews:sectionView];
+        [PWPagingTableViewTools clearSubviews:sectionView];
         __block float height = 0;
         [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             UIView *view = obj;
             view.frame = CGRectMake(0, height, kScreenWidth, view.frame.size.height);
             [self->sectionView addSubview:view];
-            view.sd_layout.leftEqualToView(self->sectionView).topSpaceToView(self->sectionView, height).rightEqualToView(self->sectionView).heightIs(view.frame.size.height);
+//            view.sd_layout.leftEqualToView(self->sectionView).topSpaceToView(self->sectionView, height).rightEqualToView(self->sectionView).heightIs(view.frame.size.height);
+            [view mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.left.right.equalTo(self->sectionView);
+                make.top.equalTo(self->sectionView).offset(height);
+                make.height.mas_equalTo(view.frame.size.height);
+            }];
             height = height + view.frame.size.height;
         }];
         sectionView.frame = CGRectMake(0, 0, kScreenWidth, height);
     }else{
-        [PWUIKitTool clearSubviews:sectionView];
+        [PWPagingTableViewTools clearSubviews:sectionView];
         [sectionView removeFromSuperview];
         sectionView = nil;
     }
