@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9266F87921C7A2E300E93FA3 /* PWTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F87521C79B1F00E93FA3 /* PWTableView.h */; };
 		9266F89421C7A4DF00E93FA3 /* PWPagingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88321C7A4DF00E93FA3 /* PWPagingTableView.m */; };
 		9266F89521C7A4DF00E93FA3 /* PWPagingADTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88421C7A4DF00E93FA3 /* PWPagingADTableView.m */; };
 		9266F89621C7A4DF00E93FA3 /* PWPagingTableViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88521C7A4DF00E93FA3 /* PWPagingTableViewTools.m */; };
@@ -16,14 +15,15 @@
 		9266F89921C7A4DF00E93FA3 /* PWSingleCellServiceBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F88C21C7A4DF00E93FA3 /* PWSingleCellServiceBridge.m */; };
 		9266F89A21C7A4DF00E93FA3 /* PWPagingTableViewSingleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F89021C7A4DF00E93FA3 /* PWPagingTableViewSingleService.m */; };
 		9266F89B21C7A4DF00E93FA3 /* PWPagingTableViewService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266F89321C7A4DF00E93FA3 /* PWPagingTableViewService.m */; };
-		9266F89C21C7A4E800E93FA3 /* PWPagingTableViewSingleService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88221C7A4DF00E93FA3 /* PWPagingTableViewSingleService.h */; };
-		9266F89D21C7A4E800E93FA3 /* PWPagingTableViewService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88621C7A4DF00E93FA3 /* PWPagingTableViewService.h */; };
-		9266F89E21C7A4E800E93FA3 /* PWSingleCellService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88821C7A4DF00E93FA3 /* PWSingleCellService.h */; };
-		9266F89F21C7A4E800E93FA3 /* PWSingleCellServiceBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88921C7A4DF00E93FA3 /* PWSingleCellServiceBridge.h */; };
-		9266F8A021C7A4E800E93FA3 /* PWSingleCellServiceCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88E21C7A4DF00E93FA3 /* PWSingleCellServiceCell.h */; };
-		9266F8A121C7A4E800E93FA3 /* PWPagingTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F88F21C7A4DF00E93FA3 /* PWPagingTableView.h */; };
-		9266F8A221C7A4E800E93FA3 /* PWPagingTableViewTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F89121C7A4DF00E93FA3 /* PWPagingTableViewTools.h */; };
-		9266F8A321C7A4E800E93FA3 /* PWPagingADTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9266F89221C7A4DF00E93FA3 /* PWPagingADTableView.h */; };
+		9266F8A521C7A5D000E93FA3 /* PWPagingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266F88F21C7A4DF00E93FA3 /* PWPagingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9266F8A621C7A5D000E93FA3 /* PWPagingADTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266F89221C7A4DF00E93FA3 /* PWPagingADTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9266F8A721C7A5D000E93FA3 /* PWPagingTableViewService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266F88621C7A4DF00E93FA3 /* PWPagingTableViewService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9266F8A821C7A5D000E93FA3 /* PWPagingTableViewSingleService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266F88221C7A4DF00E93FA3 /* PWPagingTableViewSingleService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9266F8A921C7A5D000E93FA3 /* PWPagingTableViewTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266F89121C7A4DF00E93FA3 /* PWPagingTableViewTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9266F8AA21C7A5D000E93FA3 /* PWSingleCellService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266F88821C7A4DF00E93FA3 /* PWSingleCellService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9266F8AB21C7A5D000E93FA3 /* PWSingleCellServiceBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266F88921C7A4DF00E93FA3 /* PWSingleCellServiceBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9266F8AC21C7A5D000E93FA3 /* PWSingleCellServiceCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266F88E21C7A4DF00E93FA3 /* PWSingleCellServiceCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9266F8AD21C7A5D000E93FA3 /* PWTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266F87521C79B1F00E93FA3 /* PWTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0DD5529073C2D1A09FDD34B /* libPods-PWPagingTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6F1950C7758F0342166D9 /* libPods-PWPagingTableView.a */; };
 /* End PBXBuildFile section */
 
@@ -34,15 +34,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9266F89C21C7A4E800E93FA3 /* PWPagingTableViewSingleService.h in CopyFiles */,
-				9266F89D21C7A4E800E93FA3 /* PWPagingTableViewService.h in CopyFiles */,
-				9266F89E21C7A4E800E93FA3 /* PWSingleCellService.h in CopyFiles */,
-				9266F89F21C7A4E800E93FA3 /* PWSingleCellServiceBridge.h in CopyFiles */,
-				9266F8A021C7A4E800E93FA3 /* PWSingleCellServiceCell.h in CopyFiles */,
-				9266F8A121C7A4E800E93FA3 /* PWPagingTableView.h in CopyFiles */,
-				9266F8A221C7A4E800E93FA3 /* PWPagingTableViewTools.h in CopyFiles */,
-				9266F8A321C7A4E800E93FA3 /* PWPagingADTableView.h in CopyFiles */,
-				9266F87921C7A2E300E93FA3 /* PWTableView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,17 +115,17 @@
 		9266F88121C7A4DF00E93FA3 /* PWPagingTableView */ = {
 			isa = PBXGroup;
 			children = (
-				9266F88221C7A4DF00E93FA3 /* PWPagingTableViewSingleService.h */,
-				9266F88321C7A4DF00E93FA3 /* PWPagingTableView.m */,
-				9266F88421C7A4DF00E93FA3 /* PWPagingADTableView.m */,
-				9266F88521C7A4DF00E93FA3 /* PWPagingTableViewTools.m */,
-				9266F88621C7A4DF00E93FA3 /* PWPagingTableViewService.h */,
-				9266F88721C7A4DF00E93FA3 /* PWSingleCellService */,
 				9266F88F21C7A4DF00E93FA3 /* PWPagingTableView.h */,
+				9266F88321C7A4DF00E93FA3 /* PWPagingTableView.m */,
+				9266F89221C7A4DF00E93FA3 /* PWPagingADTableView.h */,
+				9266F88421C7A4DF00E93FA3 /* PWPagingADTableView.m */,
+				9266F88621C7A4DF00E93FA3 /* PWPagingTableViewService.h */,
+				9266F89321C7A4DF00E93FA3 /* PWPagingTableViewService.m */,
+				9266F88221C7A4DF00E93FA3 /* PWPagingTableViewSingleService.h */,
 				9266F89021C7A4DF00E93FA3 /* PWPagingTableViewSingleService.m */,
 				9266F89121C7A4DF00E93FA3 /* PWPagingTableViewTools.h */,
-				9266F89221C7A4DF00E93FA3 /* PWPagingADTableView.h */,
-				9266F89321C7A4DF00E93FA3 /* PWPagingTableViewService.m */,
+				9266F88521C7A4DF00E93FA3 /* PWPagingTableViewTools.m */,
+				9266F88721C7A4DF00E93FA3 /* PWSingleCellService */,
 			);
 			path = PWPagingTableView;
 			sourceTree = "<group>";
@@ -163,12 +154,32 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9266F8A421C7A5C300E93FA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9266F8A521C7A5D000E93FA3 /* PWPagingTableView.h in Headers */,
+				9266F8A621C7A5D000E93FA3 /* PWPagingADTableView.h in Headers */,
+				9266F8A721C7A5D000E93FA3 /* PWPagingTableViewService.h in Headers */,
+				9266F8A821C7A5D000E93FA3 /* PWPagingTableViewSingleService.h in Headers */,
+				9266F8A921C7A5D000E93FA3 /* PWPagingTableViewTools.h in Headers */,
+				9266F8AA21C7A5D000E93FA3 /* PWSingleCellService.h in Headers */,
+				9266F8AB21C7A5D000E93FA3 /* PWSingleCellServiceBridge.h in Headers */,
+				9266F8AC21C7A5D000E93FA3 /* PWSingleCellServiceCell.h in Headers */,
+				9266F8AD21C7A5D000E93FA3 /* PWTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		9266F85421C7999500E93FA3 /* PWPagingTableView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9266F85E21C7999500E93FA3 /* Build configuration list for PBXNativeTarget "PWPagingTableView" */;
 			buildPhases = (
 				CF30295C772D0A70E61EC164 /* [CP] Check Pods Manifest.lock */,
+				9266F8A421C7A5C300E93FA3 /* Headers */,
 				9266F85121C7999500E93FA3 /* Sources */,
 				9266F85221C7999500E93FA3 /* Frameworks */,
 				9266F85321C7999500E93FA3 /* CopyFiles */,
