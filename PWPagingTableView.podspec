@@ -1,0 +1,48 @@
+
+Pod::Spec.new do |s|
+
+
+  s.name         = "PWPagingTableView"
+  s.version      = "0.0.1"
+  s.summary      = "tableview的分割管理"
+
+
+  s.description  = "tableview的分割管理"
+
+  s.homepage     = "https://github.com/wnrz/PWPagingTableView.git"
+
+  s.license      = "MIT"
+
+  s.author       = { "PW" => "66682060@qq.com" }
+
+
+  s.platform     = :ios, "8.0"
+  s.ios.deployment_target = "8.0"
+
+  s.public_header_files = 'PWPagingTableView/PWPagingTableView/*.h'
+  s.source_files = 'PWPagingTableView/PWPagingTableView/PWTableView.h'
+
+  s.source = { :git => 'https://github.com/wnrz/PWPagingTableView.git', :tag => s.version.to_s}
+  
+
+  s.requires_arc = true
+  s.framework = "UIKit","Foundation"
+
+
+  s.subspec 'PWPagingTableView' do |ss|#
+    ss.source_files = 'PWPagingTableView/PWPagingTableView/**/*.{h,m,c}'
+    ss.ios.frameworks = 'UIKit', 'Foundation','UIKit'
+  end
+
+  s.resource_bundles = {'PWPagingTableView' => ['PWPagingTableView/PWPagingTableView/**/*.{png,plist,xib}']}
+
+#  s.pod_target_xcconfig = {
+#      'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
+#      'FRAMEWORK_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/**',
+#      'LIBRARY_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/**' ,
+#      'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup',
+#      "DEFINES_MODULE" => "YES"
+#  }
+  
+#  s.static_framework = true
+end
