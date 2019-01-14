@@ -98,6 +98,14 @@
     [self setMJF:nil];
 }
 
+- (void)setDelegate:(id<UITableViewDelegate>)delegate{
+    [super setDelegate:self];
+}
+
+- (void)setDataSource:(id<UITableViewDataSource>)dataSource{
+    [super setDataSource:self];
+}
+
 - (void)setData:(NSDictionary *)dict toClass:(__unsafe_unretained Class)toClass{
     for (int i = 0 ; i < _services.count; i++) {
         id service = _services[i];
@@ -699,9 +707,94 @@
     }
 }
 
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
-    if (_enableBottomRefresh && !_mjFooter) {
-        [self setupFooter];
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewDidScroll:scrollView];
     }
 }
+
+- (void)scrollViewDidZoom:(UIScrollView *)scrollView {
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewDidZoom:scrollView];
+    }
+}
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewWillBeginDragging:scrollView];
+    }
+}
+
+- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewWillEndDragging:scrollView withVelocity:velocity targetContentOffset:targetContentOffset];
+    }
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewDidEndDragging:scrollView];
+    }
+}
+
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewWillBeginDecelerating:scrollView];
+    }
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewDidEndDecelerating:scrollView];
+    }
+}
+
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewDidEndScrollingAnimation:scrollView];
+    }
+}
+
+- (nullable UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        return [_scrollViewDelegate viewForZoomingInScrollView:scrollView];
+    }
+    if (self.subviews.count > 0) {
+        return self.subviews[0];
+    }
+    return nil;
+}
+
+- (void)scrollViewWillBeginZooming:(UIScrollView *)scrollView withView:(nullable UIView *)view {
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewWillBeginZooming:scrollView withView:view];
+    }
+}
+
+- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(nullable UIView *)view atScale:(CGFloat)scale{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewDidEndZooming:scrollView withView:view atScale:scale];
+    }
+}
+
+- (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        return [_scrollViewDelegate scrollViewShouldScrollToTop:scrollView];
+    }
+    return YES;
+}
+
+- (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewDidScrollToTop:scrollView];
+    }
+}
+
+
+- (void)scrollViewDidChangeAdjustedContentInset:(UIScrollView *)scrollView{
+    if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
+        [_scrollViewDelegate scrollViewDidChangeAdjustedContentInset:scrollView];
+    }
+}
+
 @end

@@ -24,6 +24,8 @@
 @property(nonatomic,assign)BOOL topBottomSwich;//上下拉 pagenum处理交换
 @property(nonatomic,retain)NSMutableArray *services;//service集合 可以多个
 @property(nonatomic,retain)PWPagingTableViewSingleService *singleService;//
+@property (nonatomic, weak, nullable) id <UIScrollViewDelegate> scrollViewDelegate;
+
 - (void)viewWillAppear;
 - (void)viewWillDisappear;
 - (void)viewDidAppear;
