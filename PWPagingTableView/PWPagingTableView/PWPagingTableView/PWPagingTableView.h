@@ -19,11 +19,11 @@
 //@property (nonatomic, weak) id refreshFooter;
 @property (nonatomic, strong) id mjheader;
 @property (nonatomic, strong) id mjFooter;
-@property(nonatomic,assign)BOOL enableTopRefresh;//允许下拉
-@property(nonatomic,assign)BOOL enableBottomRefresh;//允许上拉
-@property(nonatomic,assign)BOOL topBottomSwich;//上下拉 pagenum处理交换
-@property(nonatomic,retain)NSMutableArray *services;//service集合 可以多个
-@property(nonatomic,retain)PWPagingTableViewSingleService *singleService;//
+@property (nonatomic,assign) BOOL enableTopRefresh;//允许下拉
+@property (nonatomic,assign) BOOL enableBottomRefresh;//允许上拉
+@property (nonatomic,assign) BOOL topBottomSwich;//上下拉 pagenum处理交换
+@property (nonatomic,retain) NSMutableArray *services;//service集合 可以多个
+@property (nonatomic,retain) PWPagingTableViewSingleService *singleService;//
 @property (nonatomic, weak, nullable) id <UIScrollViewDelegate> scrollViewDelegate;
 
 - (void)viewWillAppear;
