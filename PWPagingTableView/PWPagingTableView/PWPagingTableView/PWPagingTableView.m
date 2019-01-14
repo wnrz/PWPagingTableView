@@ -733,7 +733,7 @@
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
     if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
-        [_scrollViewDelegate scrollViewDidEndDragging:scrollView];
+        [_scrollViewDelegate scrollViewDidEndDragging:scrollView willDecelerate:decelerate];
     }
 }
 
