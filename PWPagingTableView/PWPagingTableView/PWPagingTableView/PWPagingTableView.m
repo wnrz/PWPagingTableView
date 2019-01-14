@@ -793,7 +793,11 @@
 
 - (void)scrollViewDidChangeAdjustedContentInset:(UIScrollView *)scrollView{
     if (_scrollViewDelegate != nil && [_scrollViewDelegate respondsToSelector:_cmd]) {
-        [_scrollViewDelegate scrollViewDidChangeAdjustedContentInset:scrollView];
+        if (@available(iOS 11.0, *)) {
+            [_scrollViewDelegate scrollViewDidChangeAdjustedContentInset:scrollView];
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
 
