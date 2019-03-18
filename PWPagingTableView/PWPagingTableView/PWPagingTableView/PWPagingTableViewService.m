@@ -200,11 +200,13 @@
 }
 
 - (void)setSectionViews:(NSArray *)array{
+    float kScreenWidth = [[UIScreen mainScreen] bounds].size.width;
     if (array.count == 1) {
         sectionView = array[0];
+        float height = sectionView.frame.size.height;
+        sectionView.frame = CGRectMake(0, 0, kScreenWidth, height);
         return;
     }
-    float kScreenWidth = [[UIScreen mainScreen] bounds].size.width;
     if (array && array.count > 0) {
         sectionView = sectionView ? sectionView : [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 0)];
         [PWPagingTableViewTools clearSubviews:sectionView];
