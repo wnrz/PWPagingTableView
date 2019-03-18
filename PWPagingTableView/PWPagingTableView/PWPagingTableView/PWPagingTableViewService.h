@@ -70,4 +70,5 @@ typedef void(^PWPagingTableViewServiceBlock)(id obj);
 - (NSInteger)section;
 - (void)setSectionViews:(NSArray *)array;
 - (UIView *)sectionView;
+- (UIView *)sectionViewWith:(int)index;
 @end
