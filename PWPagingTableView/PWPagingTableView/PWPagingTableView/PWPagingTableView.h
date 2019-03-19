@@ -9,8 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+
 @class PWPagingTableViewSingleService;
 @interface PWPagingTableView : UITableView<UITableViewDelegate , UITableViewDataSource , UIScrollViewDelegate>
+
+typedef void(^didReloadDataBlock)(PWPagingTableView *tableView);
+
 
 @property (nonatomic, copy) void(^beginHeaderRefreshingOperation)(void);
 @property (nonatomic, copy) void(^beginFooterRefreshingOperation)(void);
@@ -25,6 +29,7 @@
 @property (nonatomic,retain) NSMutableArray *services;//service集合 可以多个
 @property (nonatomic,retain) PWPagingTableViewSingleService *singleService;//
 @property (nonatomic, weak, nullable) id <UIScrollViewDelegate> scrollViewDelegate;
+@property(nonatomic,copy) didReloadDataBlock didReloadData;
 
 - (void)viewWillAppear;
 - (void)viewWillDisappear;
@@ -32,4 +37,5 @@
 - (void)viewDidDisappear;
 - (void)setData:(NSDictionary *)dict toClass:(Class)toClass;
 - (void)loadData;
+- (void)didReloadData:(didReloadDataBlock)block;
 @end

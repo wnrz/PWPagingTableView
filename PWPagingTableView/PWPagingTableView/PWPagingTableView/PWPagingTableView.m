@@ -801,4 +801,15 @@
     }
 }
 
+- (void)reloadData{
+    [super reloadData];
+    if (self.didReloadData) {
+        self.didReloadData(self);
+    }
+}
+
+- (void)reloadDataCompletionHandler:(didReloadDataBlock)block{
+    _didReloadData = block;
+}
+
 @end
