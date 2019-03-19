@@ -37,5 +37,5 @@ typedef void(^didReloadDataBlock)(PWPagingTableView *tableView);
 - (void)viewDidDisappear;
 - (void)setData:(NSDictionary *)dict toClass:(Class)toClass;
 - (void)loadData;
-- (void)didReloadData:(didReloadDataBlock)block;
+- (void)reloadDataCompletionHandler:(didReloadDataBlock)block;
 @end
