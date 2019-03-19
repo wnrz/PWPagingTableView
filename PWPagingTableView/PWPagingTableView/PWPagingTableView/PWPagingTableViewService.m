@@ -233,10 +233,10 @@
 }
 
 - (UIView *)sectionView{
-    return [self sectionViewWith:1];
+    return [self sectionViewWith:0];
 }
 
 - (UIView *)sectionViewWith:(int)index{
-    return [sectionView viewWithTag:index];
+    return [sectionView viewWithTag:index + 1];
 }
 @end
