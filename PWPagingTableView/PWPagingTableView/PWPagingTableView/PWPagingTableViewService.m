@@ -213,7 +213,7 @@
         __block float height = 0;
         [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             UIView *view = obj;
-            view.tag = idx;
+            view.tag = idx + 1;
             view.frame = CGRectMake(0, height, kScreenWidth, view.frame.size.height);
             [self->sectionView addSubview:view];
 //            view.sd_layout.leftEqualToView(self->sectionView).topSpaceToView(self->sectionView, height).rightEqualToView(self->sectionView).heightIs(view.frame.size.height);
@@ -233,7 +233,7 @@
 }
 
 - (UIView *)sectionView{
-    return [self sectionViewWith:0];
+    return [self sectionViewWith:1];
 }
 
 - (UIView *)sectionViewWith:(int)index{
