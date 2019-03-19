@@ -803,13 +803,16 @@
 
 - (void)reloadData{
     [super reloadData];
-    if (self.didReloadData) {
-        self.didReloadData(self);
-    }
+    [self performSelector:@selector(callHandle) withObject:nil afterDelay:.5];
 }
 
 - (void)reloadDataCompletionHandler:(didReloadDataBlock)block{
     _didReloadData = block;
 }
 
+- (void)callHandle{
+    if (self.didReloadData) {
+        self.didReloadData(self);
+    }
+}
 @end
