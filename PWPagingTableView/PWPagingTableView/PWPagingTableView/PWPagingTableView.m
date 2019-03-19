@@ -803,7 +803,7 @@
 
 - (void)reloadData{
     [super reloadData];
-    [self performSelector:@selector(callHandle) withObject:nil afterDelay:.5];
+    [self performSelector:@selector(callHandle) withObject:nil afterDelay:.1];
 }
 
 - (void)reloadDataCompletionHandler:(didReloadDataBlock)block{
