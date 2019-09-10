@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <PWDataBridge/PWBaseDataBridge.h>
+@import PWDataBridge;
 
 typedef void(^PWPagingTableViewServiceBlock)(id obj);
 @interface PWPagingTableViewService : PWBaseDataBridge{

@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "PWPagingTableView"
-  s.version      = "0.0.11"
+  s.version      = "0.0.12"
   s.summary      = "tableview的分割管理"
 
 
