@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PWSingleCellServiceCell.h"
 
 @protocol PWSingleCellServiceCellProtocol <NSObject>
 + (NSString *)identifier;
